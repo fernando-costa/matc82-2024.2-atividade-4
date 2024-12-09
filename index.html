@@ -9,19 +9,35 @@
   <body>
     <header>
       <div id="header-img"></div>
+      <div id="dropdown-menu">
+        <nav> <!-- tranformei as categorias de design, desenvolvimento e consultoria em subcategoria porque 
+          na atividade pedia três e essas se encaixam como subcategorias de serviços -->
+          <ul>
+            <li id="dropdown-item"><a href="#">Home</a></li> 
+            <li id="dropdown-item"><a href="#">Serviços</a>
+              <ul class="submenu">
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Desenvolvimento</a></li>
+                <li><a href="#">Consultoria</a></li>
+              </ul>
+            </li>
+            <li id="dropdown-item"><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <div id="dropdown-menu">
-      <nav>
+    <main class="container">
+      <section class="main-content">
+        <!-- Conteúdo principal -->
+      </section>
+      <aside class="sidebar">
+        <h2>Links Úteis</h2>
         <ul>
-          <li id="dropdown-item"><a href="#">Home</a></li>
-          <li id="dropdown-item"><a href="#">Serviços</a></li>
-          <li id="dropdown-item"><a href="#">Design</a></li>
-          <li id="dropdown-item"><a href="#">Desenvolvimento</a></li>
-          <li id="dropdown-item"><a href="#">Consultoria</a></li>
-          <li id="dropdown-item"><a href="#">Contato</a></li>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
         </ul>
-      </nav>
-    </div>
+      </aside>
+    </main>
     <section>
       <form action="">
         <div>
@@ -45,5 +61,8 @@
         </div>
       </form>
     </section>
+    <footer>
+      <p>&copy; 2024 atividade 4 Sistemas Web </p>
+    </footer>
   </body>
 </html>
